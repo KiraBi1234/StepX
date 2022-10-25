@@ -8,12 +8,12 @@ ul{
 }
 
 .header{
+  position: absolute;
   height: 80px;
   width: 1600px;
   left: 0px;
   top: 0px;
-  border-radius: [object Object]px;
-  
+  border-radius: [object Object]px; 
 }
 
 .header-nav{
@@ -44,7 +44,7 @@ ul{
   width: 294px;
   height: 16px;
   left: 453px;
-  top: 32px;
+  top: 27px;
 }
 
 .header-li{
@@ -121,7 +121,7 @@ ul{
   top: 174px;
 }
 .btn .btn-light{
-  position: absolute;
+  position: center;
   width: 84px;
   height: 26px;
   left: 598px;
@@ -132,16 +132,13 @@ ul{
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-
-
   text-align: center;
   letter-spacing: 0.03em;
-
+  
   color: #212121;
 }
 
 .header-img{
-  
   position: absolute;
   width: 1170px;
   height: 1360px;
