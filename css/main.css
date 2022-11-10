@@ -31,6 +31,7 @@ ul{
   line-height: 31px;
   
   color: #2196F3;
+  
 }
 .header-item{
   height: 48px;
@@ -39,12 +40,29 @@ ul{
   top: 32px;
   border-radius: 2px;
 }
+
+.header-li:hover .header-item {
+  color: #2196F3;
+  background: red;
+}
+
+header ul li p:hover {
+  color: #2196F3;
+}
 .header-link{
-  position: absolute;
-  width: 294px;
+  position: absolute; 
+  width: 77px;
   height: 16px;
   left: 453px;
-  top: 27px;
+  top: 32px;
+}
+p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
 
 .header-li{
@@ -117,26 +135,35 @@ ul{
 
 
 
-.btn .btn-outline-primaryclas  {
-  position: center;
-  width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 174px;
-}
 
 
-
-
-
-
-.header-img{
+.header-img {
   position: absolute;
   width: 1170px;
   height: 1360px;
   left: 215px;
   top: 174px;
 }
+
+
+
+
+button:active {
+  color: rgb(248, 244, 244);
+  background-color: #2196F3;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -356,7 +383,7 @@ ul{
 
 .footer3{
   position: absolute;
-  width: 570px;
+  /* width: 570px; */
   height: 86px;
   left: 115px;
   top: -20px;
@@ -390,8 +417,8 @@ ul{
   left: 815px;
   top: 1736px;
   
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgb(255, 255, 255));
+  border: 1px solid rgba(254, 235, 235, 0.3);
+  filter: drop-shadow(0px 4px 4px rgb(238, 230, 230));
   border-radius: 4px;
 }
 
@@ -403,6 +430,6 @@ ul{
   top: 1736px;
   
   background: #2196F3;
-  box-shadow: 0px 4px 4px rgb(243, 240, 240);
+  box-shadow: 0px 4px 4px rgb(0, 0, 0);
   border-radius: 4px;
 }
